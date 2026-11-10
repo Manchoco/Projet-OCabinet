@@ -1,34 +1,27 @@
-# O'Cabinet — storyboard « Le Cercle »
+# O'Cabinet — storyboard « Le Cercle » (v2)
 
 ## Le concept
-Le « O » du logo devient un anneau en 3D posé au centre de la scène. Il a deux versants :
+Une scène en papier découpé. Les images du cabinet, détourées, sont posées dans l'espace comme des
+découpes épaisses. Au centre, le logo tourne sur lui-même et la caméra tourne lentement autour.
+Au défilement, la caméra avance de station en station ; le texte s'affiche à gauche puis à droite.
 
-- **Dedans** — l'accompagnement psychologique (monde bleu nuit, calme).
-- **Devant** — l'accompagnement professionnel (monde clair, en mouvement).
-
-Quand on change de volet, la caméra fait un demi-tour autour du O et toute la page change de lumière.
-Le logo tourne en continu au centre de l'anneau. L'apostrophe corail du « O' » flotte à côté.
-
-Les quatre pictogrammes fournis (deux personnes assises, le cerveau emmêlé, la lampe, l'escalier)
-ne sont pas repris tels quels : ce sont des images de banque d'images sous licence. Leurs idées
-sont redessinées en volumes 3D originaux, aux couleurs du logo.
+Deux volets, une seule scène : **Psychologique** et **Professionnel** changent les textes,
+la couleur d'accent (rouge du logo / bleu du logo) et les mots projetés.
 
 ## Identité
-- Couleurs : bleu nuit, bleu roi, bleu ciel, corail (tirées du logo), papier bleuté.
-- Typographies (sans empattement) : Bricolage Grotesque (titres), Onest (texte), Martian Mono (repères).
-- Ton : tutoiement, phrases courtes, slogans du cabinet repris à l'identique.
+- Typographies : Anton (titres, capitales), Poppins (texte courant).
+- Couleurs : bleu nuit, bleu et rouge du logo, bleu brume en fond, plus le corail et le bleu canard des deux têtes.
+- Confort : fond clair et doux, mouvements lents, texte courant aéré, petit repère « respire » dans l'accueil,
+  rappel de confidentialité et d'absence d'engagement.
 
-## Déroulé (au défilement)
-
-| # | Plan caméra | Ce qu'on voit | Texte | Animation |
+## Déroulé
+| # | Caméra | Image | Texte | Effet au défilement |
 |---|---|---|---|---|
-| 00 | Rotation continue autour du O, anneau à droite | Anneau, logo qui tourne, mot géant « O' » derrière | À gauche : slogan + rendez-vous WhatsApp + choix Dedans / Devant | Titre mot par mot, ondes au sol |
-| 01 | Travelling vers les deux fauteuils | Deux personnages assis face à face | À gauche : « D'abord, s'asseoir » (pro : « faire le point ») | Les décors sortent du sol |
-| 02 | Plan serré, objet à gauche | Psy : le fil emmêlé. Pro : la lampe et les points d'interrogation | À droite : « Démêler le fil » / « Éclairer les options » | Le nœud se déroule en trajectoire ; les « ? » deviennent des repères |
-| 03 | Plan large, objet à droite | Psy : la lampe. Pro : les marches et la main tendue | À gauche : « Éclairer » / « Monter, une marche après l'autre » | Les marches grandissent avec le défilement |
-| 04 | Une feuille pleine recouvre la scène | Activités du cabinet | Liste numérotée | Apparition ligne par ligne |
-| 05 | Feuille | Programmes à venir | Formulaire d'inscription | Message prêt à envoyer sur WhatsApp |
-| 06 | Feuille | Questions | Formulaire, avec ou sans nom | idem |
-| 07 | Plongée sur le O, décors rentrés dans le sol | Anneau + logo | « Tout commence par un message » + logotype géant | Retour au calme |
+| 00 | Rotation lente autour du logo | Logo sans fond, qui tourne | À gauche : « Un espace pour déposer ce qui pèse » | Titre mot par mot |
+| 01 | Approche des deux têtes | Les deux têtes (emmêlé → clair) | À droite : « Démêler » | Les têtes oscillent doucement |
+| 02 | Plan large, salle de projection | Tête-projecteur + un mur | En bas : « Éclairer » / « Te projeter » | La lumière baisse, la lampe s'allume, le texte projeté se met au point puis change |
+| 03 | Face à la poignée de main | Poignée de main | À gauche : « Avancer ensemble » | Les mains montent et se tournent vers le visiteur |
+| 04–06 | Feuilles pleines | — | Activités, programmes, questions | Apparitions en cascade |
+| 07 | Retour face au logo | Logo | « Tout commence par un message » | — |
 
-Le même déroulé existe pour les deux volets : seuls les textes, la lumière et le côté du O changent.
+Textes projetés : psy « Y voir clair » puis « Retrouver tes repères » ; pro « Te projeter » puis « Choisir ta route ».
