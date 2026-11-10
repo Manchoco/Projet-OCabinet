@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>O'Cabinet</title>
+<meta name="description" content="O'Cabinet : accompagnement psychologique et accompagnement professionnel. Un espace d'écoute, de compréhension et de reconstruction. Rendez-vous par WhatsApp.">
+<meta name="theme-color" content="#0c1a3d">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400..800&family=Martian+Mono:wght@400;500&family=Onest:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/site.css">
+<script>document.documentElement.classList.add("js");</script>
+</head>
+<body data-world="psy">
+<a class="skip" href="#contenu">Aller au contenu</a>
+
+<div class="giant" aria-hidden="true"><span id="giant">O'</span></div>
+<canvas id="scene" aria-hidden="true"></canvas>
+
+<header class="top">
+  <a class="brand" href="#accueil" aria-label="O'Cabinet, retour en haut"><img src="assets/logo-ocabinet.jpg" alt="O'Cabinet" width="475" height="216"></a>
+  <div class="switch" role="group" aria-label="Choisir le volet">
+    <button type="button" data-set="psy" aria-pressed="true"><span class="long">Accompagnement </span>psy</button>
+    <button type="button" data-set="pro" aria-pressed="false"><span class="long">Accompagnement </span>pro</button>
+  </div>
+  <a class="btn small" data-wa="rdv" href="https://wa.me/2250142236993" target="_blank" rel="noopener">Prendre rendez-vous</a>
+</header>
+
+<main id="contenu">
+
+  <!-- 00 · Le Cercle -->
+  <section class="hero" id="accueil" data-shot="0">
+    <div class="hero-in">
+      <p class="eyebrow rv" data-w="psy"><i></i>Dedans · accompagnement psychologique</p>
+      <p class="eyebrow rv" data-w="pro"><i></i>Devant · accompagnement professionnel</p>
+      <h1 data-w="psy" data-split>Un espace d'écoute, de compréhension et de <em>reconstruction.</em></h1>
+      <h1 data-w="pro" data-split>Ton compagnon de réflexion <em>stratégique.</em></h1>
+      <p class="lede rv" style="--d:120ms" data-w="psy">O'Cabinet accompagne la santé mentale et le développement personnel. Ici, tu poses ce qui pèse, à ton rythme, sans jugement.</p>
+      <p class="lede rv" style="--d:120ms" data-w="pro">L'art de composer avec sa réalité pour avancer : orientation, reconversion, prise de poste, projet à lancer.</p>
+      <div class="row rv" style="--d:200ms">
+        <a class="btn" data-wa="rdv" href="https://wa.me/2250142236993" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20.5l1.7-5.1A8.5 8.5 0 1 1 21 11.5Z"/></svg>
+          Rendez-vous sur WhatsApp
+        </a>
+        <a class="btn ghost" href="#ch1">Voir comment ça se passe</a>
+      </div>
+      <div class="sides rv" style="--d:280ms" role="group" aria-label="Les deux versants du cabinet">
+        <button type="button" data-set="psy" aria-pressed="true"><b>Dedans</b><small>Ce qui se passe en toi</small></button>
+        <button type="button" data-set="pro" aria-pressed="false"><b>Devant</b><small>Ce qui t'attend au travail</small></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 01 -->
+  <section class="chap" id="ch1" data-shot="1">
+    <div class="chap-in">
+      <p class="num rv">01 / 03</p>
+      <h2 data-w="psy" data-split>D'abord, s'asseoir.</h2>
+      <h2 data-w="pro" data-split>D'abord, faire le point.</h2>
+      <p class="rv" data-w="psy">Deux fauteuils, une personne formée à l'écoute en face de toi. La première rencontre sert à dire les choses comme elles viennent.</p>
+      <p class="rv" data-w="pro">Où tu en es, ce que tu sais faire, ce qui bloque. On pose la situation à plat avant de parler d'objectifs.</p>
+      <ul class="rv" style="--d:100ms" data-w="psy">
+        <li><span>A</span>Ce que tu dis reste entre nous</li>
+        <li><span>B</span>Tu avances à ton rythme</li>
+        <li><span>C</span>Tu peux venir sans savoir par où commencer</li>
+      </ul>
+      <ul class="rv" style="--d:100ms" data-w="pro">
+        <li><span>A</span>Ton parcours, tes forces, tes contraintes</li>
+        <li><span>B</span>Ce que tu veux garder, ce que tu veux quitter</li>
+        <li><span>C</span>Une première lecture claire de ta situation</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 02 -->
+  <section class="chap right" id="ch2" data-shot="2">
+    <div class="chap-in">
+      <p class="num rv">02 / 03</p>
+      <h2 data-w="psy" data-split>Ensuite, démêler le fil.</h2>
+      <h2 data-w="pro" data-split>Ensuite, éclairer les options.</h2>
+      <p class="rv" data-w="psy">Ce qui tourne en boucle a un début. On le cherche ensemble, nœud après nœud, jusqu'à ce qu'un chemin apparaisse.</p>
+      <p class="rv" data-w="pro">Rester, bouger, se former, entreprendre. On regarde chaque piste avec ses coûts réels, et on écarte celles qui ne tiennent pas.</p>
+    </div>
+  </section>
+
+  <!-- 03 -->
+  <section class="chap" id="ch3" data-shot="3">
+    <div class="chap-in">
+      <p class="num rv">03 / 03</p>
+      <h2 data-w="psy" data-split>Puis éclairer ce qui restait dans l'ombre.</h2>
+      <h2 data-w="pro" data-split>Puis monter, une marche après l'autre.</h2>
+      <p class="rv" data-w="psy">Comprendre ses réactions, retrouver des repères, repartir avec des appuis concrets pour les jours difficiles.</p>
+      <p class="rv" data-w="pro">Un plan en étapes courtes, et quelqu'un qui tend la main à chaque palier. Personne ne grimpe seul.</p>
+      <div class="row rv" style="--d:100ms">
+        <a class="btn" data-wa="rdv" href="https://wa.me/2250142236993" target="_blank" rel="noopener">Commencer par un message</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Activités -->
+  <section class="sheet first" id="activites" data-shot="4">
+    <div class="sheet-head">
+      <div>
+        <p class="eyebrow rv"><i></i>Les activités du cabinet</p>
+        <h2 data-w="psy" data-split>Ce que le cabinet fait, côté psychologie.</h2>
+        <h2 data-w="pro" data-split>Ce que le cabinet fait, côté vie professionnelle.</h2>
+      </div>
+      <p class="rv" data-w="psy">En tête-à-tête ou en groupe, au cabinet ou chez un partenaire. Écris-nous pour connaître les prochaines dates.</p>
+      <p class="rv" data-w="pro">Pour une personne, une équipe ou une promotion d'étudiants. Écris-nous pour connaître les prochaines dates.</p>
+    </div>
+    <ol class="acts" data-w="psy">
+      <li class="rv"><span class="n">01</span><h3>Consultations individuelles</h3><p>Un temps réservé pour toi, avec un suivi dans la durée si tu le souhaites.</p></li>
+      <li class="rv"><span class="n">02</span><h3>Groupes de parole</h3><p>Échanger avec des personnes qui traversent la même chose, dans un cadre tenu par un professionnel.</p></li>
+      <li class="rv"><span class="n">03</span><h3>Ateliers thématiques</h3><p>Stress, estime de soi, émotions : des séances courtes pour comprendre et s'exercer.</p></li>
+      <li class="rv"><span class="n">04</span><h3>Sensibilisation</h3><p>Interventions sur la santé mentale dans les écoles, les associations et les entreprises.</p></li>
+    </ol>
+    <ol class="acts" data-w="pro">
+      <li class="rv"><span class="n">01</span><h3>Coaching individuel</h3><p>Des séances centrées sur ta situation de travail et les décisions que tu dois prendre.</p></li>
+      <li class="rv"><span class="n">02</span><h3>Bilan d'orientation</h3><p>Pour choisir une filière, un métier ou une reconversion en connaissance de cause.</p></li>
+      <li class="rv"><span class="n">03</span><h3>Ateliers pratiques</h3><p>CV, entretien, prise de parole : on s'entraîne sur des cas réels.</p></li>
+      <li class="rv"><span class="n">04</span><h3>Interventions en structure</h3><p>Conférences et ateliers pour les équipes, les écoles et les associations.</p></li>
+    </ol>
+  </section>
+
+  <!-- Programmes -->
+  <section class="sheet" id="programmes" data-shot="4">
+    <div class="split">
+      <div class="intro">
+        <p class="eyebrow rv"><i></i>Les programmes à venir</p>
+        <h2 data-split>Sois prévenu au lancement.</h2>
+        <p class="rv">Le cabinet prépare des programmes sur plusieurs semaines. Laisse ton contact et le thème qui t'intéresse, tu recevras les informations dès l'ouverture des inscriptions.</p>
+        <p class="note rv">Rien n'est facturé à cette étape. Tu confirmes ton inscription plus tard, quand tu connais le contenu et les dates.</p>
+      </div>
+      <form id="fProg" novalidate>
+        <div class="f2">
+          <label for="pNom">Prénom ou nom<input type="text" id="pNom" name="nom" autocomplete="name" required></label>
+          <label for="pTel">Numéro WhatsApp<input type="tel" id="pTel" name="tel" autocomplete="tel" inputmode="tel" placeholder="07 00 00 00 00" required></label>
+        </div>
+        <label for="pTheme">Thème qui t'intéresse
+          <select id="pTheme" name="theme"></select>
+        </label>
+        <label for="pMsg"><span>Un mot sur ta situation <small>(facultatif)</small></span><textarea id="pMsg" name="msg" rows="4"></textarea></label>
+        <p class="err" id="pErr" role="alert"></p>
+        <div><button class="btn" type="submit">Préparer mon inscription</button></div>
+        <div class="ready" id="pReady" aria-live="polite">
+          <strong>Ton message est prêt.</strong>
+          <pre id="pPrev"></pre>
+          <div><a class="btn" id="pSend" href="https://wa.me/2250142236993" target="_blank" rel="noopener">Ouvrir WhatsApp et envoyer</a></div>
+          <small class="muted">L'inscription part quand tu appuies sur Envoyer dans WhatsApp.</small>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Questions -->
+  <section class="sheet" id="questions" data-shot="4">
+    <div class="split">
+      <div class="intro">
+        <p class="eyebrow rv"><i></i>Pose ta question</p>
+        <h2 data-w="psy" data-split>Une question que tu n'oses pas poser ?</h2>
+        <h2 data-w="pro" data-split>Une question sur ton parcours ?</h2>
+        <p class="rv">Écris-la ici, avec ton nom ou sans. Elle est lue par le cabinet uniquement et n'est jamais publiée sur ce site.</p>
+        <p class="note rv" data-w="psy">O'Cabinet n'est pas un service d'urgence. Si toi ou un proche êtes en danger immédiat, contacte les secours ou rends-toi à l'hôpital le plus proche.</p>
+      </div>
+      <form id="fQ" novalidate>
+        <fieldset>
+          <legend>Comment veux-tu écrire ?</legend>
+          <div class="seg">
+            <label for="qNamed"><input type="radio" name="mode" id="qNamed" value="named" checked>Avec mon nom</label>
+            <label for="qAnon"><input type="radio" name="mode" id="qAnon" value="anon">Sans mon nom</label>
+          </div>
+        </fieldset>
+        <p class="note" id="qAnonNote" hidden></p>
+        <label for="qNom" id="qNomWrap">Prénom ou nom<input type="text" id="qNom" name="nom" autocomplete="name"></label>
+        <label for="qTxt">Ta question<textarea id="qTxt" name="q" rows="6" required></textarea></label>
+        <p class="err" id="qErr" role="alert"></p>
+        <div><button class="btn" type="submit" id="qBtn">Préparer ma question</button></div>
+        <div class="ready" id="qReady" aria-live="polite">
+          <strong id="qReadyT">Ta question est prête.</strong>
+          <pre id="qPrev"></pre>
+          <div><a class="btn" id="qSend" href="https://wa.me/2250142236993" target="_blank" rel="noopener">Ouvrir WhatsApp et envoyer</a></div>
+          <small class="muted" id="qReadyS">Elle part quand tu appuies sur Envoyer dans WhatsApp.</small>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Rendez-vous -->
+  <section class="rdv" id="rdv" data-shot="5">
+    <div class="rdv-in">
+      <p class="eyebrow rv"><i></i>Prendre rendez-vous</p>
+      <h2 data-split>Tout commence par un message.</h2>
+      <p class="rv">Les rendez-vous se prennent sur WhatsApp. Dis en une phrase ce qui t'amène, le cabinet te propose un créneau.</p>
+      <div class="row rv" style="--d:100ms">
+        <a class="btn" data-wa="rdv" href="https://wa.me/2250142236993" target="_blank" rel="noopener">Écrire au cabinet</a>
+      </div>
+      <p class="contact rv" style="--d:160ms"><span>WhatsApp <b>+225 01 42 23 69 93</b></span><span>Facebook <b>D.A.S</b></span></p>
+    </div>
+    <footer>
+      <div class="foot-row">
+        <p>O'Cabinet · Accompagnement psy et vie pro</p>
+        <p>Ce site ne remplace pas une consultation. En cas de danger immédiat, contacte les secours.</p>
+      </div>
+      <p class="logotype" aria-hidden="true">O<span>'</span>Cabinet</p>
+    </footer>
+  </section>
+</main>
+
+<div class="counter off" id="counter" aria-hidden="true"><b id="cNum">01</b><span class="bar"><i></i></span><span id="cLab">Écouter</span></div>
+
+<a class="wa" data-wa="rdv" href="https://wa.me/2250142236993" target="_blank" rel="noopener" aria-label="Écrire au cabinet sur WhatsApp">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20.5l1.7-5.1A8.5 8.5 0 1 1 21 11.5Z"/></svg>
+</a>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
