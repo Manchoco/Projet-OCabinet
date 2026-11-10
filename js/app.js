@@ -207,7 +207,7 @@ async function startScene() {
     t.colorSpace = THREE.SRGBColorSpace; t.anisotropy = maxAniso; res(t);
   }, undefined, rej));
   const [texLogo, texHeads, texLamp, texHands] = await Promise.all(
-    ['logo', 'deux-tetes', 'tete-projecteur', 'poignee-de-main'].map((n) => load(`assets/img/${n}.webp`)));
+    ['logo', 'deux-tetes', 'tete-projecteur', 'poignee-de-main'].map((n) => load(new URL(`../assets/img/${n}.webp`, import.meta.url).href)));
 
   const scene = new THREE.Scene();
   const P = WORLDS.psy.scene, Q = WORLDS.pro.scene;
